@@ -11,7 +11,10 @@
     "start": "nodemon src"
   },
   "dependencies": {
+    "dotenv": "^6.2.0",
     "express": "^4.16.4",
-    "nodemon": "^1.18.9"
+    "mongoose": "^5.4.4",
+    "nodemon": "^1.18.9",
+    "require-dir": "^1.2.0"
   }
 }

@@ -1,7 +1,20 @@
+require('dotenv').config();
+
 const express = require('express');
 const app = express();
+const mongoose = require('mongoose');
 const routes = require('./routes');
 
+// mongodb
+mongoose.connect(process.env.DATABASE_URL, {
+  useNewUrlParser: true,
+  useCreateIndex: true
+});
+
+// rotas
 app.use(routes);
 
-app.listen(3000, () => console.log('Servidor iniciado na porta 3000.'));
+// iniciando servidor
+app.listen(process.env.APP_PORT, () => {
+  console.log(`Servidor iniciado na porta ${process.env.APP_PORT}.`)
+});

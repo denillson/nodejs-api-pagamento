@@ -7,7 +7,11 @@
   "author": "Vitor Leonel <falecom@vitorleonel.com>",
   "license": "MIT",
   "private": true,
+  "scripts": {
+    "start": "nodemon src"
+  },
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "nodemon": "^1.18.9"
   }
 }

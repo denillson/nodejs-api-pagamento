@@ -12,6 +12,7 @@ mongoose.connect(process.env.DATABASE_URL, {
 });
 
 // rotas
+app.use(express.json());
 app.use(routes);
 
 // iniciando servidor

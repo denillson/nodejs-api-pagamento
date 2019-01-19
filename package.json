@@ -1,7 +1,7 @@
 {
   "name": "nodejs-api-pagamento",
   "version": "1.0.0",
-  "description": "Projeto para artigo que aborda sobre Integração com a API de Pagamento do PagSeguro",
+  "description": "Projeto para artigo que aborda sobre Integração com a API de Pagamento do Mercado Pago",
   "main": "index.js",
   "repository": "https://github.com/vitorleonel/nodejs-api-pagamento.git",
   "author": "Vitor Leonel <falecom@vitorleonel.com>",
